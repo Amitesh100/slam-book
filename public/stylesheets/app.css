@@ -1,0 +1,93 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=734&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+label{
+    font-size: 15px;
+}
+
+.td1{
+    margin: 10px 2px 5px 2px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+.container.main{
+    border: 7px solid rgb(116, 197, 116);
+    width: 900px;
+    padding: 70px;
+    border-radius: 50px;
+    background-color: lightgoldenrodyellow;
+    margin-top: 100px;
+
+}
+
+.jumbotron{
+    background-color: rgb(85, 190, 190);
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+#head{
+    padding-top: 30px;
+}
+
+.pad{
+    padding: 10px 10px 10px 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+i.icon{
+    font-size: 2em;
+}
+
+#newBtn{
+    margin: 0px 10px 25px 30px;
+}
+
+.index{
+    border: 2px solid rgb(95, 218, 181);
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px 20px;
+    background-color: aliceblue;
+}
+
+.show{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 4px double rgba(252, 252, 90, 0.5);
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+
+.down{
+    margin-top: 80px;
+    position: absolute;
+    height: auto;
+    width: 800px;
+    margin-left: 350px;
+}
+
+#home{
+    margin: 10px 100px 10px 650px;
+}
+
+
+#view{
+    margin-left: 500px;
+}
+

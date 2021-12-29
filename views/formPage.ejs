@@ -1,0 +1,131 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container main">
+    <div class="row">
+        <div class="col-lg-12">
+            <form action="/books" method="post">
+                <label class="td" for="name">My Parents Named Me :</label>
+                <input class="td1" id="name" name="slam[name]" type="text" size="50" required>
+                <br>
+            
+                <label class="td" for="nameAgain">My Friends Call Me :</label>
+                <input class="td1" id="nameAgain" name="slam[nameAgain]" type="text" size="50" required>
+                <br>
+            
+                <label class="td" for="address">I Live at :</label>
+                <input class="td1" id="address" name="slam[address]" type="text" size="50" required>
+                <br>
+            
+                <label class="td" for="phone">Ring Me On :</label>
+                <input class="td1" id="phone" name="slam[phone]" type="number" size="50" required>
+                <br>
+            
+                <label class="td" for="email">E-Mail :</label>
+                <input class="td1" id="email" name="slam[email]" type="email" size="50" required>
+                <br>
+            
+                <label class="td" for="dob">I Was Born On :</label>
+                <input class="td1" id="dob" name="slam[dob]" type="date" size="50" required>
+                <br>
+            
+                <label class="td" for="Zsign">Zodiac Sign :</label>
+                <!-- <input class="td1" type="text" name="slam[Zsign]" id="Zsign" size="50" required> -->
+                <select class="td1" name="slam[Zsign]" id="Zsign" required>
+                    <option value="#" selected disabled>--Select your Zodiac Sign--</option>
+                    <option value="Sagittarius">Sagittarius</option>
+                    <option value="Capricorn">Capricorn</option>
+                    <option value="Libra">Libra</option>
+                    <option value="Aquarius">Aquarius</option>
+                    <option value="Scorpio">Scorpio</option>
+                    <option value="Virgo">Virgo</option>
+                    <option value="Aries">Aries</option>
+                    <option value="Taurus">Taurus</option>
+                    <option value="Pisces">Pisces</option>
+                    <option value="Gemini">Gemini</option>
+                    <option value="Leo">Leo</option>
+                    <option value="Cancer">Cancer</option>
+                </select>
+                <br>
+            
+                <label class="td" for="web">My Favourite Web Site :</label>
+                <input class="td1" type="text" name="slam[web]" id="web" size="50" required>
+                <br>
+            
+                <label class="td" for="boast">I Love To Boast About :</label>
+                <input class="td1" type="text" name="slam[boast]" id="boast" size="50" required>
+                <br>
+            
+                <label class="td" for="fun">My Idea Of Fun :</label>
+                <input class="td1" type="text" name="slam[fun]" id="fun" size="50" required>
+                <br>    
+            
+                <label class="td" for="once">I Cherish Thy Memory Of The Day, when : </label>
+                <input class="td1" type="text" name="slam[once]" id="once" size="50" required>
+                <br>
+            
+                <label class="td" for="never">The Day I Never Wanna Recall :</label>
+                <input class="td1" type="text" name="slam[never]" id="never" size="50" required>
+                <br>
+            
+                <label class="td" for="oneLiner">My Favourite One-Liner is :</label>
+                <input class="td1" type="text" name="slam[oneLiner]" id="oneLiner" size="50" required>
+                <br>
+            
+                <label class="td" for="date">My Idea About Ideal Date :</label>
+                <input class="td1" type="text" name="slam[date]" id="date" size="50" required>
+                <br>
+            
+                <label class="td" for="film">You Must Check Out the Film :</label>
+                <input class="td1" type="text" name="slam[film]" id="film" size="50" required>
+                <br>
+            
+                <label class="td" for="dress">I Love To Dress Myself In :</label>
+                <input class="td1" type="text" name="slam[dress]" id="dress" size="50" required>
+                <br>
+            
+                <label class="td" for="gang">My Cool Gang Includes :</label>
+                <input class="td1" type="text" name="slam[gang]" id="gang" size="50" required>
+                <br>
+            
+                <label class="td" for="teacher">The Teacher I like The Most :</label>
+                <input class="td1" type="text" name="slam[teacher]" id="teacher" size="50" required>
+                <br>
+            
+                <label class="td" for="truth">One Truth Nobody Knows is :</label>
+                <input class="td1" type="text" name="slam[truth]" id="truth" size="50" required>
+                <br>
+            
+                <label class="td" for="moment">My Best Moment With You :</label>
+                <input class="td1" type="text" name="slam[moment]" id="moment" size="50" required>
+                <br>
+            
+                <label class="td" for="funny">My Funniest Moment Is :</label>
+                <input class="td1" type="text" name="slam[funny]" id="funny" size="50" required>
+                <br>
+            
+                <label class="td" for="love">I Fancy Love As :</label>
+                <input class="td1" type="text" name="slam[love]" id="love" size="50" required>
+                <br>
+            
+                <label class="td" for="about">About You, I Feel :</label>
+                <input class="td1" type="text" name="slam[about]" id="about" size="50" required>
+                <br>
+            
+                <!-- <label class="td" for="dated">Date :</label>
+                <input class="td1" type="date" name="slam[dated]" id="dated" size="50">
+                <br> -->
+            
+                <input class="td1" type="submit">
+                <br>
+            </form>
+            
+            
+            <a href="/" class="ui inverted teal button">
+                Back to home
+            </a>    
+        </div>
+    </div>
+</div>
+
+
+<%- include("partials/footer.ejs") %>
