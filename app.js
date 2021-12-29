@@ -1,7 +1,8 @@
 var express = require("express"),
     app = express(),
     bodyParser = require("body-parser"),
-    mongoose = require("mongoose");
+    mongoose = require("mongoose"),
+    port = process.env.PORT || 3000;
 
 //App configuration
 mongoose.connect("mongodb://localhost/slam_book");
@@ -88,6 +89,6 @@ app.get("/books/:id", function(req, res){
 
 
 //listening at a port
-app.listen(3000, function(req, res){
+app.listen(port, function(req, res){
     console.log("Your slam book has started!");
 })
